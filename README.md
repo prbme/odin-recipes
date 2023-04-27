@@ -6,4 +6,4 @@ In this project I have used the following:
 - the use of absolute (to other sites) and relative (within a site) links
 - basic use of html page formatting heading and paragraph tags.
 - Use of images witt the alt descriptions for accessibility. 
-- Using git and git hub. git clone, git add, git commit and git push. 
+- Using git and git hub. git clone, git add, git commit and git push.
