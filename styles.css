@@ -5,17 +5,17 @@
 } */
 
 body {
-  background-color: rgba(148, 184, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
-div  {
+.title-index {
   width: fit-content;
   border-style: ridge;
   border-color: rgb(22, 202, 67);
   padding-left: 10px;
   border-width: 20px;
   padding-right: 10px;
-  margin: auto;
+  margin: 20px auto 60px;
 }
 
 h1 {
@@ -31,4 +31,21 @@ h2 {
   margin-top: -10px;
   font-size: 10px;
   text-align: right;
+}
+
+.list-items {
+  display: flex;           /* Use flexbox layout */
+  justify-content: center; /* Horizontally center content */
+  align-items: center;     /* Vertically center content */
+
+}
+
+.mp-bacon, 
+.mp-chicken,
+.mp-eggsalad {
+  display: inline-block;
+  margin: auto;
+
+  width: fit-content;
+  height: fit-content;
 }
