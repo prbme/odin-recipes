@@ -15,7 +15,7 @@ body {
   padding-left: 10px;
   border-width: 20px;
   padding-right: 10px;
-  margin: 20px auto 60px;
+  margin: 20px auto 40px;
 }
 
 h1 {
@@ -33,53 +33,31 @@ h1 {
   text-align: right;
 }
 
-.list-items-container {
-  display: flex;           /* Use flexbox layout */
-  justify-content: space-around; /* Horizontally center content */
-  align-items: center;     /* Vertically center content */
+.responsive-image {
+  max-width: 100%; /* Set maximum width to 100% of its container */
+  height: auto; /* Maintain the image's aspect ratio */
 }
 
- .list-items-container button {
-  width: 200px; /* Set the desired width */
-  height: 200px; /* Set the desired height */
-  text-align: center; 
+.index-all-reciepes-container {
+ 
 }
 
-a {
-  color: rgb(15, 176, 53);
-  font-size: larger;
+.index-bwwc, .index-cm, .index-es {
 
 }
 
-.mp-bacon {
-  background-image: url('./img/bwwc-200psq.png');
-  background-size: cover; /* Adjust to fit the button's dimensions */
-  background-repeat: no-repeat;
-  background-position: center center;
-  padding: 10px 20px; /* Add padding to make the text visible */
-  border: none; /* Remove default button border */
-  cursor: pointer; /* Change cursor to indicate interactivity */
-  /* Add any other styles you want */
+.a-bwwc, .a-cm, .a-es {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
 }
 
-.mp-chicken {
-  background-image: url('./img/cpcmc200psq.png');
-  background-size: cover; /* Adjust to fit the button's dimensions */
-  background-repeat: no-repeat;
-  background-position: center center;
-  padding: 10px 20px; /* Add padding to make the text visible */
-  border: none; /* Remove default button border */
-  cursor: pointer; /* Change cursor to indicate interactivity */
-  /* Add any other styles you want */
-}
 
-.mp-eggsalad {
-  background-image: url('./img/eggsalad200psq.png');
-  background-size: cover; /* Adjust to fit the button's dimensions */
-  background-repeat: no-repeat;
-  background-position: center center;
-  padding: 10px 20px; /* Add padding to make the text visible */
-  border: none; /* Remove default button border */
-  cursor: pointer; /* Change cursor to indicate interactivity */
-  /* Add any other styles you want */
+.img-bwwc, .img-cm, .img-es {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  max-width: 100%; /* Set maximum width to 100% of its container */
+  height: auto; /* Maintain the image's aspect ratio */
+  /* Add any other styling you want */
 }
