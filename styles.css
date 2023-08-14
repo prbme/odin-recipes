@@ -27,25 +27,59 @@ h1 {
   margin-bottom: 0px;
 }
 
-h2 {
+.name-title {
   margin-top: -10px;
   font-size: 10px;
   text-align: right;
 }
 
-.list-items {
+.list-items-container {
   display: flex;           /* Use flexbox layout */
-  justify-content: center; /* Horizontally center content */
+  justify-content: space-around; /* Horizontally center content */
   align-items: center;     /* Vertically center content */
+}
+
+ .list-items-container button {
+  width: 200px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+  text-align: center; 
+}
+
+a {
+  color: rgb(15, 176, 53);
+  font-size: larger;
 
 }
 
-.mp-bacon, 
-.mp-chicken,
-.mp-eggsalad {
-  display: inline-block;
-  margin: auto;
+.mp-bacon {
+  background-image: url('./img/bwwc-200psq.png');
+  background-size: cover; /* Adjust to fit the button's dimensions */
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 10px 20px; /* Add padding to make the text visible */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Change cursor to indicate interactivity */
+  /* Add any other styles you want */
+}
 
-  width: fit-content;
-  height: fit-content;
+.mp-chicken {
+  background-image: url('./img/cpcmc200psq.png');
+  background-size: cover; /* Adjust to fit the button's dimensions */
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 10px 20px; /* Add padding to make the text visible */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Change cursor to indicate interactivity */
+  /* Add any other styles you want */
+}
+
+.mp-eggsalad {
+  background-image: url('./img/eggsalad200psq.png');
+  background-size: cover; /* Adjust to fit the button's dimensions */
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 10px 20px; /* Add padding to make the text visible */
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Change cursor to indicate interactivity */
+  /* Add any other styles you want */
 }
