@@ -9,10 +9,10 @@ body {
   /* box-sizing: border-box; */
   height: 100%;
   padding: 10px;
-  /* background-color: #ffeead; */
+  background-color: #ffeead;
 }
 
-body {
+// body {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 .recipes-title {
-  border-style: ridge;
+  border-style: ridge;      
   border-color: rgb(22, 202, 67);
   padding-left: 10px;
   border-width: 20px;
@@ -73,7 +73,7 @@ h1 {
   margin: auto; /* Center the image both horizontally and vertically */
 }
 
-.index-all-reciepes-container {
+.index-all-recipes-container{
   border: 5px ridge #cbff5c;
   display: block;
   box-sizing: border-box;
@@ -97,19 +97,21 @@ h1 {
   margin-left: auto;
 }
 
-.a-bwwc,
-.a-cm,
-.a-es {
+.index-bwwc .a-bwwc a,
+.index-cm .a-cm a,
+.index-es .a-es a {
   display: inline-block;
   box-sizing: content-box;
   width: 200px;
-  height: 40px;
+  height: 0px;
   text-align: center;
   /* border: #955cff 1px solid; */
 }
 
-.img-bwwc,
-.img-cm,
-.img-es {
+.index-bwwc .img-bwwc img,
+.index-cm .img-cm img,
+.index-es .img-es img {
   display: block;
+  width: 200px; 
+  height: 200px;
 }
